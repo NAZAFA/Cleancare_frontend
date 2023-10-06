@@ -7,7 +7,7 @@ function Footer() {
   <div className='bg-gray'>
       <div className='grid lg:grid-cols-3 grid-cols-1  py-16 container mx-auto'>
       <div className='flex justify-center items-start'>
-        <img src={logo} className=" md:-ms-40 -mt-16 ms-0   w-[15rem] h-[13rem] " alt="logo"  /></div>
+        <img src={logo} className=" lg:-ms-40 -mt-16 ms-0   w-[15rem] h-[13rem] " alt="logo"  /></div>
         <div className='flex lg:justify-start justify-center p-4  lg:p-0'>
         
         <div className='text-xl font-normal text-left me-16'>
