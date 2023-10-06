@@ -6,8 +6,10 @@ function Footer() {
   return (
   <div className='bg-gray'>
       <div className='grid lg:grid-cols-3 grid-cols-1  py-16 container mx-auto'>
-          <div className='flex justify-center   items-start'><img src={logo} className=" -mt-16 w-[15rem] h-[13rem] " alt="logo"  /></div>
+      <div className='flex justify-center items-start'>
+        <img src={logo} className=" md:-ms-14 -mt-16 ms-0   w-[15rem] h-[13rem] " alt="logo"  /></div>
         <div className='flex lg:justify-start justify-center p-4  lg:p-0'>
+        
         <div className='text-xl font-normal text-left me-16'>
             <p className='text-2xl font-semibold mb-4 '>About Us</p>
             <p className='mb-3'><a href="#">About</a></p>
@@ -21,7 +23,7 @@ function Footer() {
             <p><a href="#">Contact</a></p>
           </div>
         </div>
-          <div className='px-4 md:px-4 py-8 lg:p-0'>
+          <div className='px-4 md:px-4 lg:ps-20 py-8 lg:p-0'>
             <p className='text-2xl font-semibold pb-4 text-left'>Newsletter</p>
              <div className='bg-white p-2 flex justify-between align-center '>
               <input type="text" placeholder='Email address' className='w-full outline-none'/>
